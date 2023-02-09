@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropShipAdi</title>
+</head>
+<body>
+    <nav>
+        <h2>DropShip<span class="nav-spn">Adi</span></h2>
+
+        <section>
+            <input type="text" name="search" id="search" placeholder="Search...">
+        </section>
+
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact">About</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    
+    <style>
+        body {
+          background-color: #f2f2f2;
+        }
+  
+        .gpt-h2 {
+          text-align: center;
+          margin: 20px;
+          color: rgb(137, 48, 164);
+          font-size: 40px;
+          font-family: sans-serif;
+        }
+  
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+          padding: 10px;
+        }
+  
+        .grid-item {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          padding: 20px;
+          text-align: center;
+          transition: all 0.3s ease-in-out;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+  
+        .grid-item:hover {
+          transform: translateY(-10px);
+          box-shadow: 2px 12px 15px rgba(0, 0, 0, 0.3);
+          cursor: pointer;
+        }
+  
+        .item-image {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+  
+        .item-name {
+          font-size: 20px;
+          font-weight: bold;
+          color: purple;
+          margin-top: 10px;
+        }
+  
+        .item-price {
+          font-size: 16px;
+          color: gray;
+          margin-top: 5px;
+        }
+  
+        .item-add-to-cart {
+          background-color: purple;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 10px 20px;
+          font-size: 16px;
+          margin-top: 20px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+        }
+  
+        .item-add-to-cart:hover {
+          background-color: #a852c8;      }
+      </style>
+      <h2 class="gpt-h2">Furniture and Home Decor</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://www.woguefurns.com/img/vogue-img/sofa/img1.jpg" class="item-image" alt="Sofa">
+          <div class="item-name">Sofa</div>
+          <div class="item-price">$12,000</div>
+          <button class="item-add-to-cart">Add to Cart</button>
+        </div>
+        <div class="grid-item">
+          <img src="https://furnessfurniture.com/wp-content/uploads/2020/06/Freya4.jpg" class="item-image" alt="Chair">
+          <div class="item-name">Chair</div>
+          <div class="item-price">$8,000</div>
+          <button class="item-add-to-cart">Add to Cart</button>
+        </div>
+        <div class="grid-item">
+          <img src="https://ii1.pepperfry.com/media/catalog/product/m/a/800x880/mayur-solid-wood-console-table-in-honey-oak-finish-by-mudramark-mayur-solid-wood-console-table-in-ho-seg4zf.jpg" class="item-image" alt="
+          Table">
+          <div class="item-name">Table</div>
+          <div class="item-price">$15,000</div>
+          <button class="item-add-to-cart">Add to Cart</button>
+        </div>
+        <div class="grid-item">
+          <img src="https://www.ulcdn.net/images/products/476801/original/Drachen_Table_Lamp_LP.JPG?1646889542" class="item-image" alt="Lamp">
+          <div class="item-name">Lamp</div>
+          <div class="item-price">$5,000</div>
+          <button class="item-add-to-cart">Add to Cart</button>
+        </div>
+        <div class="grid-item">
+          <img src="http://cdn.shopify.com/s/files/1/0071/6826/2215/products/1_5_94c4af87-1bf8-4f3b-8ecf-0ce284a22336_1200x1200.jpg?v=1665527777" class="item-image" alt="Rug">
+          <div class="item-name">Rug</div>
+          <div class="item-price">$7,000</div>
+          <button class="item-add-to-cart">Add to Cart</button>
+        </div>
+        <div class="grid-item">
+          <img src="http://cdn.shopify.com/s/files/1/2270/8977/products/metal-vase-in-white-colour-with-floral-design-wl2277-vases-637.jpg?v=1668767186" class="item-image" alt="Vase">
+          <div class="item-name">Vase</div>
+          <div class="item-price">$3,000</div>
+          <button class="item-add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+</body>
+</html>
